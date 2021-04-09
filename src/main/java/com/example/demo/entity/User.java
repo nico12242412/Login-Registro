@@ -31,7 +31,7 @@ public class User implements Serializable {
 
 	@Column
 	@NotBlank
-	@Size(min = 5, max = 8, message = "No se cumple las reglas del tamano")
+	@Size(min = 5, max = 12, message = "No se cumple las reglas del tamano")
 	private String firstName;
 	@Column
 	@NotBlank
